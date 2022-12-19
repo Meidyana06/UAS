@@ -1,0 +1,47 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.brand{
+    display: flex;
+    font-size: 1.9em;
+    justify-content: center;
+    padding: 15px;
+    background-color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center; 
+    color: grey;
+    font-weight: bolder;
+}
+
+.navigation>li{
+    list-style-type: none;
+    padding: 15px;
+    }
+
+.navigation>li>a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation>li>a:hover {
+    color: blue;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+
+
+
+

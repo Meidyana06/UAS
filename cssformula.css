@@ -1,0 +1,30 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.brand{
+    display: flex;
+    font-size: 1.9em;
+    justify-content: center;
+    padding: 15px;
+    background-color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    width: 980px;
+    margin: auto;
+}
+
+.container .kanan{
+    float: right;
+    padding-left: 50px;
+}
+
+.container .kiri{
+    float: left;
+    padding-left: 50px;
+}
